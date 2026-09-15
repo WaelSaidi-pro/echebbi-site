@@ -12,7 +12,8 @@
       "date_publication": "2026-09-10",
       "epingle": true,
       "image": null,
-      "piece_jointe": null
+      "piece_jointe": null,
+      "status": "published"
     },
     {
       "id": 2,
@@ -25,7 +26,8 @@
       "date_publication": "2026-09-05",
       "epingle": false,
       "image": "assets/founder.jpg",
-      "piece_jointe": null
+      "piece_jointe": null,
+      "status": "published"
     },
     {
       "id": 3,
@@ -38,7 +40,8 @@
       "date_publication": "2026-08-28",
       "epingle": false,
       "image": null,
-      "piece_jointe": null
+      "piece_jointe": null,
+      "status": "published"
     },
     {
       "id": 4,
@@ -51,7 +54,8 @@
       "date_publication": "2026-08-20",
       "epingle": false,
       "image": null,
-      "piece_jointe": null
+      "piece_jointe": null,
+      "status": "published"
     }
   ]
 }

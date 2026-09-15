@@ -14,7 +14,7 @@ const CMS_FIELDS =
 
 const CMS_QUERY =
   "/items/actualites" +
-  "?filter[statut][_eq]=publie" +
+  "?filter[status][_eq]=published" +
   "&sort=-epingle,-date_publication" +
   "&fields=" + CMS_FIELDS +
   "&limit=9";
