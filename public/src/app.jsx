@@ -57,7 +57,7 @@ function App() {
       <Programs t={t} />
       <Numbers t={t} />
       <Admissions t={t} />
-      <News t={t} />
+      <News t={t} lang={lang} />
       <Agenda t={t} />
       <CtaBanner t={t} />
       <Footer t={t} />

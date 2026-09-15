@@ -1,0 +1,57 @@
+{
+  "_comment": "Jeu de donnees de repli, utilise uniquement si le CMS est injoignable. Forme identique a la reponse de l'API Directus. A supprimer lorsque le CMS sera en service.",
+  "data": [
+    {
+      "id": 1,
+      "titre_fr": "Inscriptions 2026-2027 : ouverture des dossiers",
+      "titre_ar": "التسجيل 2026-2027 : فتح باب الترشح",
+      "contenu_fr": "<p>Les dossiers de candidature pour l'annee scolaire 2026-2027 sont disponibles au secretariat de l'etablissement et telechargeables ci-dessous. La date limite de depot est fixee au 15 juin.</p>",
+      "contenu_ar": "<p>ملفات الترشح للسنة الدراسية 2026-2027 متوفرة بإدارة المؤسسة وقابلة للتحميل أدناه. آخر أجل لإيداع الملفات هو 15 جوان.</p>",
+      "categorie_fr": "Inscriptions",
+      "categorie_ar": "التسجيل",
+      "date_publication": "2026-09-10",
+      "epingle": true,
+      "image": null,
+      "piece_jointe": null
+    },
+    {
+      "id": 2,
+      "titre_fr": "Rentree scolaire : organisation de la premiere semaine",
+      "titre_ar": "العودة المدرسية : تنظيم الأسبوع الأول",
+      "contenu_fr": "<p>Les cours reprennent le lundi 15 septembre. Les emplois du temps definitifs seront affiches a l'entree de l'etablissement et remis aux eleves en classe.</p>",
+      "contenu_ar": "<p>تستأنف الدروس يوم الاثنين 15 سبتمبر. سيتم تعليق جداول الأوقات النهائية بمدخل المؤسسة وتسليمها للتلاميذ بالأقسام.</p>",
+      "categorie_fr": "Vie scolaire",
+      "categorie_ar": "الحياة المدرسية",
+      "date_publication": "2026-09-05",
+      "epingle": false,
+      "image": "assets/founder.jpg",
+      "piece_jointe": null
+    },
+    {
+      "id": 3,
+      "titre_fr": "Liste des fournitures scolaires par niveau",
+      "titre_ar": "قائمة الأدوات المدرسية حسب المستوى",
+      "contenu_fr": "<p>La liste des fournitures est desormais disponible pour l'ensemble des niveaux, du college a la terminale. Elle est telechargeable au format PDF.</p>",
+      "contenu_ar": "<p>قائمة الأدوات المدرسية متوفرة الآن لجميع المستويات، من الإعدادي إلى البكالوريا. يمكن تحميلها بصيغة PDF.</p>",
+      "categorie_fr": "Documents",
+      "categorie_ar": "وثائق",
+      "date_publication": "2026-08-28",
+      "epingle": false,
+      "image": null,
+      "piece_jointe": null
+    },
+    {
+      "id": 4,
+      "titre_fr": "Reunion des parents d'eleves",
+      "titre_ar": "اجتماع أولياء التلاميذ",
+      "contenu_fr": "<p>Une reunion d'information reunira les parents et l'equipe pedagogique. L'ordre du jour sera communique une semaine avant la date retenue.</p>",
+      "contenu_ar": "<p>سينعقد اجتماع إعلامي يجمع الأولياء بالفريق البيداغوجي. سيتم الإعلان عن جدول الأعمال أسبوعا قبل الموعد.</p>",
+      "categorie_fr": "Vie scolaire",
+      "categorie_ar": "الحياة المدرسية",
+      "date_publication": "2026-08-20",
+      "epingle": false,
+      "image": null,
+      "piece_jointe": null
+    }
+  ]
+}

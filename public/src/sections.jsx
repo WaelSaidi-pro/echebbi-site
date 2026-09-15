@@ -158,45 +158,7 @@ function Admissions({ t }) {
   );
 }
 
-function News({ t }) {
-  return (
-    <section className="section parchment" id="news" data-screen-label="news">
-      <div className="container">
-        <Reveal>
-          <div className="section-head" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", maxWidth: "none" }}>
-            <div style={{ maxWidth: 620 }}>
-              <div className="eyebrow-row">
-                <span className="eyebrow">{t.news.eyebrow}</span>
-              </div>
-              <h2>{t.news.title}</h2>
-              <p>{t.news.lede}</p>
-            </div>
-          </div>
-        </Reveal>
-        <div className="news">
-          {t.news.items.map((it, i) => (
-            <Reveal key={i} delay={i * 120}>
-              <article className="news-card">
-                <div className="thumb">
-                  <span className="badge">{it.badge}</span>
-                  <span className="label">{it.img}</span>
-                </div>
-                <div className="body">
-                  <div className="date">{it.date}</div>
-                  <h4>{it.t}</h4>
-                  <p>{it.p}</p>
-                  <span className="read">
-                    {t.news.more} <span className="arrow">→</span>
-                  </span>
-                </div>
-              </article>
-            </Reveal>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
+// News vit desormais dans actualites.jsx (alimente par le CMS).
 
 function Agenda({ t }) {
   return (
