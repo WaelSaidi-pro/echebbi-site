@@ -5,7 +5,7 @@ const I18N = {
     dir: "ltr",
     top: {
       portal: "Espace parents",
-      contact: "+216 76 000 000",
+      contact: "+216 95 136 355",
       address: "Moularès, Gafsa — Tunisie",
     },
     nav: {
@@ -126,6 +126,8 @@ const I18N = {
     banniere: {
       aria: "Annonce de l'établissement",
       fermer: "Fermer l'annonce",
+      navigation: "Choisir une annonce",
+      aller: "Afficher l'annonce {n} sur {total}",
     },
     news: {
       pinned: "Épinglé",
@@ -166,7 +168,7 @@ const I18N = {
     foot: {
       tag: "Fondée en 1991 — Collège & Lycée privé",
       addr: "Avenue de l'Éducation\\n2110 Moularès, Gafsa — Tunisie",
-      phone: "+216 76 000 000",
+      phone: "+216 95 136 355",
       email: "contact@echebbi.tn",
       explore: "Explorer",
       exploreLinks: ["L'école", "La Fondatrice", "Programmes", "Équipe pédagogique", "Galerie"],
@@ -181,7 +183,7 @@ const I18N = {
 
   en: {
     dir: "ltr",
-    top: { portal: "Parent portal", contact: "+216 76 000 000", address: "Moulares, Gafsa — Tunisia" },
+    top: { portal: "Parent portal", contact: "+216 95 136 355", address: "Moulares, Gafsa — Tunisia" },
     nav: { about: "The School", founder: "The Founder", programs: "Programs", admissions: "Admissions", life: "Student Life", news: "News", contact: "Contact", apply: "Apply" },
     hero: {
       eyebrow: "Since 1991 — Private Middle & High School",
@@ -291,6 +293,8 @@ const I18N = {
     banniere: {
       aria: "School announcement",
       fermer: "Close announcement",
+      navigation: "Choose an announcement",
+      aller: "Show announcement {n} of {total}",
     },
     news: {
       pinned: "Pinned",
@@ -331,7 +335,7 @@ const I18N = {
     foot: {
       tag: "Founded 1991 — Private Collège & Lycée",
       addr: "Avenue de l'Éducation\\n2110 Moulares, Gafsa — Tunisia",
-      phone: "+216 76 000 000",
+      phone: "+216 95 136 355",
       email: "contact@echebbi.tn",
       explore: "Explore",
       exploreLinks: ["The school", "The Founder", "Programs", "Faculty", "Gallery"],
@@ -346,7 +350,7 @@ const I18N = {
 
   ar: {
     dir: "rtl",
-    top: { portal: "فضاء الأولياء", contact: "216 76 000 000+", address: "أمّ العرائس، قفصة — تونس" },
+    top: { portal: "فضاء الأولياء", contact: "216 95 136 355+", address: "أمّ العرائس، قفصة — تونس" },
     nav: { about: "المدرسة", founder: "المؤسِّسة", programs: "البرامج", admissions: "التسجيل", life: "الحياة المدرسية", news: "أخبار", contact: "اتصل بنا", apply: "ترشّح" },
     hero: {
       eyebrow: "منذ 1991 — إعدادي وثانوي خاص",
@@ -456,6 +460,8 @@ const I18N = {
     banniere: {
       aria: "إعلان المؤسسة",
       fermer: "إغلاق الإعلان",
+      navigation: "اختيار إعلان",
+      aller: "عرض الإعلان {n} من {total}",
     },
     news: {
       pinned: "مثبّت",
@@ -496,7 +502,7 @@ const I18N = {
     foot: {
       tag: "تأسست 1991 — إعدادي وثانوي خاص",
       addr: "شارع التربية\\n2110 أمّ العرائس، قفصة — تونس",
-      phone: "216 76 000 000+",
+      phone: "216 95 136 355+",
       email: "contact@echebbi.tn",
       explore: "استكشف",
       exploreLinks: ["المدرسة", "المؤسِّسة", "البرامج", "هيئة التدريس", "معرض الصور"],
