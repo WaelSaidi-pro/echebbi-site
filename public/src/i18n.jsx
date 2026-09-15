@@ -123,6 +123,10 @@ const I18N = {
         { t: "Réponse & inscription", s: "Réponse motivée sous trois semaines, puis inscription définitive.", d: "En cas de réponse favorable, la famille dispose d'un délai de deux semaines pour confirmer l'inscription et régler les frais de scolarité du premier trimestre." },
       ],
     },
+    banniere: {
+      aria: "Annonce de l'établissement",
+      fermer: "Fermer l'annonce",
+    },
     news: {
       pinned: "Épinglé",
       loading: "Chargement des actualités…",
@@ -284,6 +288,10 @@ const I18N = {
         { t: "Response & enrolment", s: "A considered answer within three weeks, then final enrolment.", d: "On acceptance, families have two weeks to confirm enrolment and settle first-trimester fees." },
       ],
     },
+    banniere: {
+      aria: "School announcement",
+      fermer: "Close announcement",
+    },
     news: {
       pinned: "Pinned",
       loading: "Loading news…",
@@ -444,6 +452,10 @@ const I18N = {
         { t: "المقابلة والتقييم", s: "لقاءٌ مع الإدارة، واختبارٌ مختصر.", d: "تدوم المقابلة نحو 45 دقيقة. هي حديثٌ هادئ يتمحور حول مسار التلميذ ودوافعه، لا اختبار انتقاءٍ صارم." },
         { t: "الردّ والتسجيل", s: "قرارٌ في أجل 3 أسابيع، ثمّ تسجيلٌ نهائي.", d: "في حال القبول، يُتاح للعائلة أجلُ أسبوعين لتأكيد التسجيل ودفع مصاريف الثلاثي الأوّل." },
       ],
+    },
+    banniere: {
+      aria: "إعلان المؤسسة",
+      fermer: "إغلاق الإعلان",
     },
     news: {
       pinned: "مثبّت",

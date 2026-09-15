@@ -49,6 +49,7 @@ function App() {
 
   return (
     <>
+      <Banniere t={t} lang={lang} />
       <TopBar t={t} lang={lang} setLang={setLang} />
       <MainNav t={t} />
       <Hero t={t} variant={tweaks.hero} />

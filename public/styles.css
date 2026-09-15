@@ -1084,3 +1084,56 @@ body.lang-ar .founder-values li:hover { padding-left: 0; padding-right: 8px; }
 
 /* RTL : le badge passe a droite de la vignette. */
 body.lang-ar .news-card .thumb .badge { left: auto; right: 16px; }
+
+/* ============================================================
+   Banniere d'annonce — en tete, dans le flux, au-dessus du menu collant
+   ============================================================ */
+
+.banniere {
+  position: relative; z-index: 50;
+  border-bottom: 1px solid rgba(201,162,75,.35);
+  font-family: var(--sans);
+}
+.banniere.is-info      { background: var(--navy-900); color: #fff; }
+.banniere.is-important { background: var(--gold-600); color: var(--navy-900); }
+
+.banniere-inner {
+  display: flex; align-items: center; gap: 20px;
+  padding: 11px 0;
+}
+.banniere-texte {
+  margin: 0; font-size: 13.5px; line-height: 1.45;
+  letter-spacing: 0.01em;
+}
+.banniere-lien {
+  flex: none;
+  font-family: var(--mono); font-size: 11px;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  text-decoration: none; white-space: nowrap;
+  padding-bottom: 2px;
+}
+.banniere.is-info .banniere-lien      { color: var(--gold-400); border-bottom: 1px solid currentColor; }
+.banniere.is-important .banniere-lien { color: var(--navy-900); border-bottom: 1px solid currentColor; }
+.banniere-lien:hover { opacity: .75; }
+
+.banniere-fermer {
+  flex: none; margin-inline-start: auto;
+  background: none; border: 0; cursor: pointer;
+  font-size: 22px; line-height: 1;
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  color: inherit; opacity: .6;
+  transition: opacity .2s ease;
+}
+.banniere-fermer:hover { opacity: 1; }
+.banniere-fermer:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; opacity: 1; }
+
+@media (max-width: 720px) {
+  .banniere-inner { flex-wrap: wrap; gap: 10px 16px; padding: 12px 0; }
+  .banniere-texte { flex: 1 1 100%; order: 1; font-size: 13px; }
+  .banniere-lien  { order: 2; }
+  .banniere-fermer {
+    order: 0; margin-inline-start: auto;
+    position: absolute; inset-block-start: 6px; inset-inline-end: 8px;
+  }
+}
